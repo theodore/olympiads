@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1269850523 source:d:\sources\usaco\chapter 5\fc\main.cpp
+	<iostream>
+	<cmath>
+	<algorithm>
+

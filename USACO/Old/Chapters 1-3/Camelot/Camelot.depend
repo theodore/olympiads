@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1268637097 source:c:\users\yo\documents\sources\usaco\camelot\main.cpp
+	<iostream>
+	<cmath>
+	<queue>
+

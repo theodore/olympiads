@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="lgame.dict" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="lgame.in" open="1" top="0" tabpos="2">
+		<Cursor position="7" topLine="0" />
+	</File>
+	<File name="lgame.out" open="1" top="0" tabpos="3">
+		<Cursor position="13" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1403" topLine="52" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,9 @@
+in
+n m k < 50
+n lines, k ints, [0, 3], demand
+m lines, k ints, [0, 3], supply
+k matrices
+	n * m, (0, 100), cost of <j, i>
+
+out
+min cost or -1

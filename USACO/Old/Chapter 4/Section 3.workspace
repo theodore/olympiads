@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Section 3\Buylow\Buylow.cbp" />
+		<Project filename="Section 3\Prime3\Prime3.cbp" />
+		<Project filename="Section 3\Race3\Race3.cbp" />
+		<Project filename="Section 3\Lgame\Lgame.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

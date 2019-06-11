@@ -1,0 +1,304 @@
+splay 9:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 3, val 1, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 10:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 3, val 3, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 11:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 3, val 2, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 12:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 13:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 14:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 15:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 7:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 6:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 5:
+root = 4, ncnt = 4
+ 0: {size 0, val 0, father 3, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 2, father 4, son 1 0}
+ 3: {size 1, val 1234567890, father 4, son 0 0}
+ 4: {size 4, val 3, father 0, son 2 3}
+
+splay 4:
+root = 3, ncnt = 3
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 3, son 0 0}
+ 2: {size 1, val 1234567890, father 3, son 0 0}
+ 3: {size 3, val 1, father 0, son 1 2}
+
+splay 3:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 2:
+root = 5, ncnt = 5
+ 0: {size 0, val 0, father 4, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1, father 5, son 1 0}
+ 3: {size 1, val 3, father 4, son 0 0}
+ 4: {size 2, val 1234567890, father 5, son 3 0}
+ 5: {size 5, val 2, father 0, son 2 4}
+
+splay 1:
+root = 5, ncnt = 5
+ 0: {size 0, val 0, father 4, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1, father 5, son 1 0}
+ 3: {size 1, val 3, father 4, son 0 0}
+ 4: {size 2, val 1234567890, father 5, son 3 0}
+ 5: {size 5, val 2, father 0, son 2 4}
+
+10 11
+splay 1:
+root = 5, ncnt = 5
+ 0: {size 0, val 0, father 4, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1, father 5, son 1 0}
+ 3: {size 1, val 3, father 4, son 0 0}
+ 4: {size 2, val 1234567890, father 5, son 3 0}
+ 5: {size 5, val 2, father 0, son 2 4}
+
+splay 2:
+root = 5, ncnt = 5
+ 0: {size 0, val 0, father 4, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1, father 5, son 1 0}
+ 3: {size 1, val 3, father 4, son 0 0}
+ 4: {size 2, val 1234567890, father 5, son 3 0}
+ 5: {size 5, val 2, father 0, son 2 4}
+
+splay 3:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 4:
+root = 3, ncnt = 3
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 3, son 0 0}
+ 2: {size 1, val 1234567890, father 3, son 0 0}
+ 3: {size 3, val 1, father 0, son 1 2}
+
+splay 5:
+root = 4, ncnt = 4
+ 0: {size 0, val 0, father 3, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 2, father 4, son 1 0}
+ 3: {size 1, val 1234567890, father 4, son 0 0}
+ 4: {size 4, val 3, father 0, son 2 3}
+
+splay 6:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 7:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 8:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 9:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 3, val 1, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 10:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 2, son 1 0}
+ 1: {size 3, val 2, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 11:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 2, son 1 0}
+ 1: {size 3, val 3, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 12:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 13:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 14:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 15:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+ans = 2
+9 11
+4 5
+splay 1:
+root = 5, ncnt = 5
+ 0: {size 0, val 0, father 4, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1, father 5, son 1 0}
+ 3: {size 1, val 3, father 4, son 0 0}
+ 4: {size 2, val 1234567890, father 5, son 3 0}
+ 5: {size 5, val 2, father 0, son 2 4}
+
+splay 2:
+root = 5, ncnt = 5
+ 0: {size 0, val 0, father 4, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1, father 5, son 1 0}
+ 3: {size 1, val 3, father 4, son 0 0}
+ 4: {size 2, val 1234567890, father 5, son 3 0}
+ 5: {size 5, val 2, father 0, son 2 4}
+
+splay 3:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 4:
+root = 3, ncnt = 3
+ 0: {size 0, val 0, father 1, son 3 0}
+ 1: {size 1, val -1234567890, father 3, son 0 0}
+ 2: {size 1, val 1234567890, father 3, son 0 0}
+ 3: {size 3, val 3, father 0, son 1 2}
+
+splay 5:
+root = 4, ncnt = 4
+ 0: {size 0, val 0, father 2, son 4 0}
+ 1: {size 1, val -1234567890, father 4, son 0 0}
+ 2: {size 2, val 2, father 4, son 0 3}
+ 3: {size 1, val 1234567890, father 2, son 0 0}
+ 4: {size 4, val 1, father 0, son 1 2}
+
+splay 6:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 7:
+root = 2, ncnt = 2
+ 0: {size 0, val 0, father 2, son 0 0}
+ 1: {size 1, val -1234567890, father 2, son 0 0}
+ 2: {size 2, val 1234567890, father 0, son 1 0}
+
+splay 8:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 9:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 2, son 1 0}
+ 1: {size 3, val 3, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 10:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 2, son 1 0}
+ 1: {size 3, val 2, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 11:
+root = 1, ncnt = 3
+ 0: {size 0, val 0, father 2, son 1 0}
+ 1: {size 3, val 1, father 0, son 2 3}
+ 2: {size 1, val -1234567890, father 1, son 0 0}
+ 3: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 12:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 13:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 14:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+
+splay 15:
+root = 1, ncnt = 2
+ 0: {size 0, val 0, father 0, son 0 0}
+ 1: {size 2, val -1234567890, father 0, son 0 2}
+ 2: {size 1, val 1234567890, father 1, son 0 0}
+

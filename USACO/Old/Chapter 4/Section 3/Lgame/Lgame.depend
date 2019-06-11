@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1269506618 source:d:\sources\usaco\chapter 4\section 3\lgame\main.cpp
+	<iostream>
+	<algorithm>
+	<cstring>
+

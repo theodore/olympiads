@@ -1,0 +1,254 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 33.33      0.01     0.01   676808     0.00     0.00  int const& std::max<int>(int const&, int const&)
+ 33.33      0.02     0.01    10000     0.00     0.00  get_size(int, int)
+ 33.33      0.03     0.01        1    10.00    30.00  dfs(int)
+  0.00      0.03     0.00   108653     0.00     0.00  int const& std::min<int>(int const&, int const&)
+  0.00      0.03     0.00    19998     0.00     0.00  add(int, int, int)
+  0.00      0.03     0.00    10000     0.00     0.00  change_root(int&)
+  0.00      0.03     0.00    10000     0.00     0.00  change_root(int, int, int&, int&)
+  0.00      0.03     0.00    10000     0.00     0.00  void std::sort<son_t*>(son_t*, son_t*)
+  0.00      0.03     0.00     9999     0.00     0.00  calc(int, int, int, int, int*)
+  0.00      0.03     0.00     6893     0.00     0.00  son_t::operator<(son_t const&) const
+  0.00      0.03     0.00     5904     0.00     0.00  void std::__insertion_sort<son_t*>(son_t*, son_t*)
+  0.00      0.03     0.00     5904     0.00     0.00  void std::__introsort_loop<son_t*, int>(son_t*, son_t*, int)
+  0.00      0.03     0.00     5904     0.00     0.00  void std::__final_insertion_sort<son_t*>(son_t*, son_t*)
+  0.00      0.03     0.00     5904     0.00     0.00  std::__lg(int)
+  0.00      0.03     0.00     3891     0.00     0.00  std::__niter_base<son_t*, false>::__b(son_t*)
+  0.00      0.03     0.00     2798     0.00     0.00  void std::__unguarded_linear_insert<son_t*, son_t>(son_t*, son_t)
+  0.00      0.03     0.00     2594     0.00     0.00  std::__miter_base<son_t*, false>::__b(son_t*)
+  0.00      0.03     0.00     1297     0.00     0.00  son_t* std::__copy_move_backward<false, true, std::random_access_iterator_tag>::__copy_move_b<son_t>(son_t const*, son_t const*, son_t*)
+  0.00      0.03     0.00     1297     0.00     0.00  son_t* std::copy_backward<son_t*, son_t*>(son_t*, son_t*, son_t*)
+  0.00      0.03     0.00     1297     0.00     0.00  son_t* std::__copy_move_backward_a<false, son_t*, son_t*>(son_t*, son_t*, son_t*)
+  0.00      0.03     0.00     1297     0.00     0.00  son_t* std::__copy_move_backward_a2<false, son_t*, son_t*>(son_t*, son_t*, son_t*)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 33.33% of 0.03 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.03                 main [1]
+                0.01    0.02       1/1           dfs(int) [2]
+                0.00    0.00   19998/19998       add(int, int, int) [12]
+-----------------------------------------------
+                                9999             dfs(int) [2]
+                0.01    0.02       1/1           main [1]
+[2]    100.0    0.01    0.02       1+9999    dfs(int) [2]
+                0.00    0.01   10000/10000       change_root(int&) [3]
+                0.01    0.00  459545/676808      int const& std::max<int>(int const&, int const&) [4]
+                0.00    0.00    9999/9999        calc(int, int, int, int, int*) [7]
+                0.00    0.00  108653/108653      int const& std::min<int>(int const&, int const&) [11]
+                0.00    0.00   10000/10000       void std::sort<son_t*>(son_t*, son_t*) [13]
+                                9999             dfs(int) [2]
+-----------------------------------------------
+                0.00    0.01   10000/10000       dfs(int) [2]
+[3]     38.9    0.00    0.01   10000         change_root(int&) [3]
+                0.01    0.00   10000/10000       get_size(int, int) [5]
+                0.00    0.00   10000/10000       change_root(int, int, int&, int&) [6]
+-----------------------------------------------
+                0.00    0.00  103632/676808      calc(int, int, int, int, int*) [7]
+                0.00    0.00  113631/676808      change_root(int, int, int&, int&) [6]
+                0.01    0.00  459545/676808      dfs(int) [2]
+[4]     33.3    0.01    0.00  676808         int const& std::max<int>(int const&, int const&) [4]
+-----------------------------------------------
+                              113631             get_size(int, int) [5]
+                0.01    0.00   10000/10000       change_root(int&) [3]
+[5]     33.3    0.01    0.00   10000+113631  get_size(int, int) [5]
+                              113631             get_size(int, int) [5]
+-----------------------------------------------
+                              113631             change_root(int, int, int&, int&) [6]
+                0.00    0.00   10000/10000       change_root(int&) [3]
+[6]      5.6    0.00    0.00   10000+113631  change_root(int, int, int&, int&) [6]
+                0.00    0.00  113631/676808      int const& std::max<int>(int const&, int const&) [4]
+                              113631             change_root(int, int, int&, int&) [6]
+-----------------------------------------------
+                              103632             calc(int, int, int, int, int*) [7]
+                0.00    0.00    9999/9999        dfs(int) [2]
+[7]      5.1    0.00    0.00    9999+103632  calc(int, int, int, int, int*) [7]
+                0.00    0.00  103632/676808      int const& std::max<int>(int const&, int const&) [4]
+                              103632             calc(int, int, int, int, int*) [7]
+-----------------------------------------------
+                0.00    0.00  108653/108653      dfs(int) [2]
+[11]     0.0    0.00    0.00  108653         int const& std::min<int>(int const&, int const&) [11]
+-----------------------------------------------
+                0.00    0.00   19998/19998       main [1]
+[12]     0.0    0.00    0.00   19998         add(int, int, int) [12]
+-----------------------------------------------
+                0.00    0.00   10000/10000       dfs(int) [2]
+[13]     0.0    0.00    0.00   10000         void std::sort<son_t*>(son_t*, son_t*) [13]
+                0.00    0.00    5904/5904        std::__lg(int) [18]
+                0.00    0.00    5904/5904        void std::__introsort_loop<son_t*, int>(son_t*, son_t*, int) [16]
+                0.00    0.00    5904/5904        void std::__final_insertion_sort<son_t*>(son_t*, son_t*) [17]
+-----------------------------------------------
+                0.00    0.00    2798/6893        void std::__unguarded_linear_insert<son_t*, son_t>(son_t*, son_t) [20]
+                0.00    0.00    4095/6893        void std::__insertion_sort<son_t*>(son_t*, son_t*) [15]
+[14]     0.0    0.00    0.00    6893         son_t::operator<(son_t const&) const [14]
+-----------------------------------------------
+                0.00    0.00    5904/5904        void std::__final_insertion_sort<son_t*>(son_t*, son_t*) [17]
+[15]     0.0    0.00    0.00    5904         void std::__insertion_sort<son_t*>(son_t*, son_t*) [15]
+                0.00    0.00    4095/6893        son_t::operator<(son_t const&) const [14]
+                0.00    0.00    2798/2798        void std::__unguarded_linear_insert<son_t*, son_t>(son_t*, son_t) [20]
+                0.00    0.00    1297/1297        son_t* std::copy_backward<son_t*, son_t*>(son_t*, son_t*, son_t*) [23]
+-----------------------------------------------
+                0.00    0.00    5904/5904        void std::sort<son_t*>(son_t*, son_t*) [13]
+[16]     0.0    0.00    0.00    5904         void std::__introsort_loop<son_t*, int>(son_t*, son_t*, int) [16]
+-----------------------------------------------
+                0.00    0.00    5904/5904        void std::sort<son_t*>(son_t*, son_t*) [13]
+[17]     0.0    0.00    0.00    5904         void std::__final_insertion_sort<son_t*>(son_t*, son_t*) [17]
+                0.00    0.00    5904/5904        void std::__insertion_sort<son_t*>(son_t*, son_t*) [15]
+-----------------------------------------------
+                0.00    0.00    5904/5904        void std::sort<son_t*>(son_t*, son_t*) [13]
+[18]     0.0    0.00    0.00    5904         std::__lg(int) [18]
+-----------------------------------------------
+                0.00    0.00    3891/3891        son_t* std::__copy_move_backward_a2<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [25]
+[19]     0.0    0.00    0.00    3891         std::__niter_base<son_t*, false>::__b(son_t*) [19]
+-----------------------------------------------
+                0.00    0.00    2798/2798        void std::__insertion_sort<son_t*>(son_t*, son_t*) [15]
+[20]     0.0    0.00    0.00    2798         void std::__unguarded_linear_insert<son_t*, son_t>(son_t*, son_t) [20]
+                0.00    0.00    2798/6893        son_t::operator<(son_t const&) const [14]
+-----------------------------------------------
+                0.00    0.00    2594/2594        son_t* std::copy_backward<son_t*, son_t*>(son_t*, son_t*, son_t*) [23]
+[21]     0.0    0.00    0.00    2594         std::__miter_base<son_t*, false>::__b(son_t*) [21]
+-----------------------------------------------
+                0.00    0.00    1297/1297        son_t* std::__copy_move_backward_a<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [24]
+[22]     0.0    0.00    0.00    1297         son_t* std::__copy_move_backward<false, true, std::random_access_iterator_tag>::__copy_move_b<son_t>(son_t const*, son_t const*, son_t*) [22]
+-----------------------------------------------
+                0.00    0.00    1297/1297        void std::__insertion_sort<son_t*>(son_t*, son_t*) [15]
+[23]     0.0    0.00    0.00    1297         son_t* std::copy_backward<son_t*, son_t*>(son_t*, son_t*, son_t*) [23]
+                0.00    0.00    2594/2594        std::__miter_base<son_t*, false>::__b(son_t*) [21]
+                0.00    0.00    1297/1297        son_t* std::__copy_move_backward_a2<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [25]
+-----------------------------------------------
+                0.00    0.00    1297/1297        son_t* std::__copy_move_backward_a2<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [25]
+[24]     0.0    0.00    0.00    1297         son_t* std::__copy_move_backward_a<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [24]
+                0.00    0.00    1297/1297        son_t* std::__copy_move_backward<false, true, std::random_access_iterator_tag>::__copy_move_b<son_t>(son_t const*, son_t const*, son_t*) [22]
+-----------------------------------------------
+                0.00    0.00    1297/1297        son_t* std::copy_backward<son_t*, son_t*>(son_t*, son_t*, son_t*) [23]
+[25]     0.0    0.00    0.00    1297         son_t* std::__copy_move_backward_a2<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [25]
+                0.00    0.00    3891/3891        std::__niter_base<son_t*, false>::__b(son_t*) [19]
+                0.00    0.00    1297/1297        son_t* std::__copy_move_backward_a<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [24]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+   [3] change_root(int&)      [21] std::__miter_base<son_t*, false>::__b(son_t*) [17] void std::__final_insertion_sort<son_t*>(son_t*, son_t*)
+   [6] change_root(int, int, int&, int&) [19] std::__niter_base<son_t*, false>::__b(son_t*) [25] son_t* std::__copy_move_backward_a2<false, son_t*, son_t*>(son_t*, son_t*, son_t*)
+  [12] add(int, int, int)     [22] son_t* std::__copy_move_backward<false, true, std::random_access_iterator_tag>::__copy_move_b<son_t>(son_t const*, son_t const*, son_t*) [20] void std::__unguarded_linear_insert<son_t*, son_t>(son_t*, son_t)
+   [2] dfs(int)               [23] son_t* std::copy_backward<son_t*, son_t*>(son_t*, son_t*, son_t*) [4] int const& std::max<int>(int const&, int const&)
+   [7] calc(int, int, int, int, int*) [15] void std::__insertion_sort<son_t*>(son_t*, son_t*) [11] int const& std::min<int>(int const&, int const&)
+   [5] get_size(int, int)     [16] void std::__introsort_loop<son_t*, int>(son_t*, son_t*, int) [18] std::__lg(int)
+  [14] son_t::operator<(son_t const&) const [24] son_t* std::__copy_move_backward_a<false, son_t*, son_t*>(son_t*, son_t*, son_t*) [13] void std::sort<son_t*>(son_t*, son_t*)

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1268822150 source:c:\users\yo\documents\sources\usaco\fence4\main.cpp
+	<iostream>
+	<cmath>
+
+1268815111 source:c:\users\yo\documents\sources\usaco\fence4\test.cpp
+	<iostream>
+

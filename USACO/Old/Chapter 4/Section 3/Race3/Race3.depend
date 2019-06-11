@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1269481999 source:d:\sources\usaco\chapter 4\section 3\race3\main.cpp
+	<iostream>
+	<cstring>
+	<queue>
+

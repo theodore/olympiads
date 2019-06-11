@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Section 2\Ditch\Ditch.cbp" />
+		<Project filename="Section 2\Stall4\Stall4.cbp" />
+		<Project filename="Section 2\Job\Job.cbp" />
+		<Project filename="Section 2\Cowcycle\Cowcycle.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

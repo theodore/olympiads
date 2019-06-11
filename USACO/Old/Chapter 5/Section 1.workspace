@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Section 1\Fc\Fc.cbp" />
+		<Project filename="Section 1\Starry\Starry.cbp" />
+		<Project filename="Section 1\Theme\Theme.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

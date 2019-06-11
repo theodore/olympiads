@@ -1,0 +1,12 @@
+WTF!
+input:
+3 7
+output:
+...<some number more than 200 digits> and goddammit that ans and out is the same
+input:
+3 8
+error:
+in operator*, ret is totally wrong
+can't use operator+=/-=/*=, or you'll get a segmentation fault
+if these operators are not used, segmentation fault in another place
+THIS IS UNDEBUGGABLE

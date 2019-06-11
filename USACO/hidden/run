@@ -1,0 +1,5 @@
+./hidden_data 40 15
+./hidden_new
+./hidden_brute
+cat hidden.ans
+cat hidden.out

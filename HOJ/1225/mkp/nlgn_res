@@ -1,0 +1,45 @@
+1:
+-e nlgn_arr :0.00
+-e nlgn_bit :0.18
+-e nlgn_man :0.00
+
+2:
+-e nlgn_arr :0.01
+-e nlgn_bit :0.18
+-e nlgn_man :0.00
+
+3:
+-e nlgn_arr :0.00
+-e nlgn_bit :0.18
+-e nlgn_man :0.00
+
+4:
+-e nlgn_arr :0.00
+-e nlgn_bit :0.18
+-e nlgn_man :0.00
+
+5:
+-e nlgn_arr :0.01
+-e nlgn_bit :0.18
+-e nlgn_man :0.00
+
+6:
+-e nlgn_arr :0.03
+-e nlgn_bit :0.24
+-e nlgn_man :0.01
+
+7:
+-e nlgn_arr :0.28
+-e nlgn_bit :0.87
+-e nlgn_man :0.14
+
+8:
+-e nlgn_arr :2.99
+-e nlgn_bit :7.67
+-e nlgn_man :2.04
+
+9:
+-e nlgn_arr :32.87
+-e nlgn_bit :83.77
+-e nlgn_man :23.81
+

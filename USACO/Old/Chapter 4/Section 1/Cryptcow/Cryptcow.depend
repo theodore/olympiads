@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1269106955 source:d:\sources\usaco\chapter 4\section 1\cryptcow\main.cpp
+	<iostream>
+	<cstring>
+	"chash.h"
+	<iostream>
+	<cstring>
+
+1269107025 d:\sources\usaco\chapter 4\section 1\cryptcow\chash.h
+

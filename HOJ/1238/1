@@ -1,0 +1,10 @@
+PARAM A B
+IF A > 5 THEN
+C = B * A
+END IF
+D = B - C
+Z = Y + X
+E = T
+F = E + E
+V = G + G
+RETURN F
