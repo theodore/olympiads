@@ -1,1 +1,1 @@
-#Old olympiads solutions from high school
+# Old olympiads solutions from high school
